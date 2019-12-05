@@ -7,6 +7,23 @@ nav {
   list-style-type: none;
 }
 
+p {
+  font-weight: 400;
+}
+
+.card-img {
+  border-radius: 20px 20px 0 0;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .logo {
   max-width: 4em;
   display: inline-block;
@@ -74,15 +91,13 @@ nav a:focus {
   color: #ed6b00;
 }
 
-.another-hover:hover {
-  color: #ddffa6;
-}
-
 .btn {
-  border-radius: 0;
+  border-radius: 100px;
   border-color: #ed6b00;
   background-color: #ed6b00;
   color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .btn-blue {
@@ -166,33 +181,15 @@ nav a:focus {
 }
 
 .border-dark {
-  border: 8px solid #3a4032;
+  border: 3px solid #3a4032;
+  border-radius: 24px;
 }
 
 .border-light {
-  border: 8px solid #ddffa6;
-}
-
-/* table stuff */
-
-td {
-  border: 1px solid #3a4032;
-  height: 2em;
-}
-
-th {
-  border: 1px solid #3a4032;
-}
-
-.table-width {
-  min-width: 50em;
+  border: 3px solid #ddffa6;
 }
 
 /* Form stuff */
-
-.required {
-  color: #3a4032;
-}
 
 .different {
   padding-right: 1.5rem;
@@ -214,38 +211,6 @@ th {
   position: absolute;
   left: 1em;
   top: 7em;
-}
-
-/* backgrounds */
-
-.bg-marble {
-  background-image: url("../images/backgrounds/marble.png");
-  background-size: cover;
-}
-
-.bg-home {
-  background-image: url("../images/backgrounds/bg-home.png");
-  background-size: cover;
-}
-
-.bg-tour {
-  background-image: url("../images/backgrounds/bg-tour.png");
-  background-size: cover;
-}
-
-.bg-pricing {
-  background-image: url("../images/backgrounds/bg-pricing.png");
-  background-size: cover;
-}
-
-.bg-sign-up {
-  background-image: url("../images/backgrounds/bg-form.png");
-  background-size: cover;
-}
-
-.bg-success {
-  background-image: url("../images/backgrounds/bg-success.png");
-  background-size: cover;
 }
 
 /* media queries */
